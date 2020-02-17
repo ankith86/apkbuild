@@ -2,7 +2,7 @@
 DIR="android/app/src/main/assets"
 
 function apk_Builder(){
-	 cd reactNative/Grappp
+	 #cd reactNative/Grappp
          echo " Working directory is $PWD "
 
          npx react-native bundle --dev false --platform android --entry-file index.js --bundle-output ./android/app/src/main/assets/index.android.bundle --assets-dest ./android/app/src/main/res
