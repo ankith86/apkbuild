@@ -40,6 +40,3 @@ else
   echo "Directory ${DIR} has been created and proceeding further"
   apk_Builder
 fi
-
-
-                                                                                                                            1,11          Top
