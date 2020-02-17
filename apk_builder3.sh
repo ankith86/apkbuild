@@ -19,7 +19,7 @@ function apk_Builder(){
 
          echo " ends here"
 
-         exit 0
+        # exit 0
 
 }
 
