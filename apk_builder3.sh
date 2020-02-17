@@ -1,5 +1,5 @@
 #!/bin/bash 
-DIR="Grappp/android/app/src/main/assets"
+DIR="android/app/src/main/assets"
 
 function apk_Builder(){
 	 cd reactNative/Grappp
@@ -27,7 +27,7 @@ if [ -d "$DIR" ]; then
 else
 
   echo "The ${DIR} not found. So creating directory ${DIR}"
-  path=Grappp/android/app/src/main
+  path=android/app/src/main
 
   cd $path/
   mkdir assets
